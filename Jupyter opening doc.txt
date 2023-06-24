@@ -1,0 +1,26 @@
+(tf-gpu) C:\Users\vinod>python -m notebook
+[I 13:25:57.067 NotebookApp] The port 8888 is already in use, trying another port.
+[I 13:25:57.067 NotebookApp] Serving notebooks from local directory: C:\Users\vinod
+[I 13:25:57.067 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 13:25:57.077 NotebookApp] http://localhost:8889/?token=ce4c03106f0f78f423d2311853842a6ce4179580c902c367
+[I 13:25:57.078 NotebookApp]  or http://127.0.0.1:8889/?token=ce4c03106f0f78f423d2311853842a6ce4179580c902c367
+[I 13:25:57.078 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:25:57.158 NotebookApp]
+
+(tf-gpu) C:\Users\vinod>conda.bat activate pillow
+Could not find conda environment: pillow
+You can list all discoverable environments with `conda info --envs`.
+
+
+(tf-gpu) C:\Users\vinod>conda info --envs
+# conda environments:
+#
+base                     C:\ProgramData\Anaconda3
+tf-gpu                *  C:\Users\vinod\.conda\envs\tf-gpu
+
+
+jupyter-client               7.3.4
+jupyter-console              6.4.4
+jupyter-core                 4.11.1
+jupyterlab-pygments          0.2.2
+jupyterlab-widgets
